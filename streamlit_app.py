@@ -3,7 +3,7 @@ import streamlit as st
 from app.matcher import exact_match, fuzzy_match
 from app.utils import load_csv
 st.set_page_config(layout="wide")
-st.title("Duplicate Detection App")
+st.title("Salesforce Duplicate Detection App")
 # Initialize session state
 if "reviewed_pairs" not in st.session_state:
     st.session_state.reviewed_pairs = set()
